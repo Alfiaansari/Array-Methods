@@ -8,15 +8,15 @@
 </head>
 <body>
     <script>
-        var a=[10,20,30,40];
-        document.write(a+"<br/>");
+        // var a=[10,20,30,40];
+        // document.write(a+"<br/>");
 
-        var b=["ram","harry","riya","siya"];
-        document.write(b+"<br/>");
+        // var b=["ram","harry","riya","siya"];
+        // document.write(b+"<br/>");
 
-        var c=["piya",10,"riya",30];
-        document.write(c+"<br/>");
-        document.write(c[0]);
+        // var c=["piya",10,"riya",30];
+        // document.write(c+"<br/>");
+        // document.write(c[0]);
 
 
         // Array methods;
@@ -29,36 +29,59 @@
 
 
         // pop
-        var m=[10,20,30,40];
-        document.write(m+"<br/>");
-        m.pop();
-        document.write(m+"<br/>");
+        // var m=[10,20,30,40];
+        // document.write(m+"<br/>");
+        // m.pop();
+        // document.write(m+"<br/>");
 
         // push
-        var m=[10,20,30,40];
-        document.write(m+"<br/>");
-        m.push(8);
-        document.write(m+"<br/>");
+        // var m=[10,20,30,40];
+        // document.write(m+"<br/>");
+        // m.push(8);
+        // document.write(m+"<br/>");
 
         // shift
-        var m=["riya","siya","tiya","piya"];
-        document.write(m+"<br/>");
-        m.shift();
-        document.write(m+"<br/>");
+        // var m=["riya","siya","tiya","piya"];
+        // document.write(m+"<br/>");
+        // m.shift();
+        // document.write(m+"<br/>");
 
     //   unshift 
-        var m=["riya","siya","tiya","piya"];
-        document.write(m+"<br/>");
-        m.unshift("ram");
-        document.write(m+"<br/>");
+        // var m=["riya","siya","tiya","piya"];
+        // document.write(m+"<br/>");
+        // m.unshift("ram");
+        // document.write(m+"<br/>");
 
         // concat
-        var a=["ram","sam"];
-        document.write(a+"<br/>");
-        var b=["sita","ryan"];
-        document.write(b+"<br/>");
-        var c=a.concat(b+"<br/>");
-        document.write(c);
+        // var a=["ram","sam"];
+        // document.write(a+"<br/>");
+        // var b=["sita","ryan"];
+        // document.write(b+"<br/>");
+        // var c=a.concat(b+"<br/>");
+        // document.write(c);
+
+        var ary=[10,20,30];
+        document.write("<ul>");
+        for(var a=0;a<3;a++){
+            document.write("<li>"+ary[a]+"</li>")
+        }
+        document.write("</ul>");
+        document.write("<hr/>");
+
+        // multi-dimensional array:
+
+        var ary=[
+            ["harry",18,"bca","mal"],
+            ["siya",19,"bca","female"],
+            ["riya",20,"mca","female"]
+        ];
+        for (var a=0; a<=3;a++)
+
+        {
+            for (var b=0; b>=3;b++)
+            document.write(ary[a][b]+"");
+        }
+        document.write("<br/>")
     </script>
 </body>
 </html>
